@@ -293,8 +293,65 @@ footer {
 [class="col-lg-6"] {
   padding: 100px 15px; }
 
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 95%;
+    padding: 0px; }
+  .button {
+    text-align: center; }
+    .button .button-start {
+      font-size: 14px;
+      padding: 13px 28px; }
+  .heading {
+    height: 425px; }
+    .heading .login {
+      padding-top: 20px; }
+    .heading .hapo-container {
+      padding: 40px 132px 0px 132px; }
+      .heading .hapo-container > p {
+        margin-top: 80px;
+        font-size: 14px; }
+      .heading .hapo-container .icon-container {
+        padding-top: 40px; }
+        .heading .hapo-container .icon-container .icon [class^="ti-"] {
+          font-size: 25px; }
+        .heading .hapo-container .icon-container .icon p {
+          font-size: 24px; }
+      .heading .hapo-container img {
+        width: 144px; }
+  .title {
+    padding-top: 50px;
+    text-align: center; }
+    .title h2 {
+      font-size: 36px;
+      line-height: 48px; }
+    .title [class^="ti-"] {
+      font-size: 30px; }
+  .abstract {
+    text-align: center; }
+  .content {
+    line-height: 21px; }
+    .content .todo {
+      height: 60px;
+      margin-bottom: 20px; }
+  .project {
+    height: 518px; }
+  .today {
+    height: 526px; }
+  .daily {
+    height: 520px; }
+  .member-info {
+    height: 557px; }
+  .customer-info {
+    height: 503px; }
+  footer .single-widget h2 {
+    font-size: 12.9px; }
+  footer .single-icon ul li {
+    margin-right: 8px; } }
+
 @media screen and (max-width: 480px) {
   .container {
-    max-width: 100%; } }
+    max-width: 96%;
+    padding: 0px; } }
 
 /*# sourceMappingURL=styles.css.map */
