@@ -8,7 +8,7 @@ $(document).ready(function(){
         dots: false,
         responsive: [
             {
-                breakpoint: 480,
+                breakpoint: 481,
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 1,
@@ -22,25 +22,41 @@ $(document).ready(function(){
     });
 
 
-    $('.slider-for').slick({
+    $('.slider-nav').slick({
+        arrows: false,
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 8,
+        slidesToScroll: 8,
+        asNavFor: '.comment-slider',
+        focusOnSelect: true,
+        centerMode: true,
+        centerPadding: '0',
+        responsive: [{
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 5,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+            }
+        },
+            {
+                breakpoint: 481,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+    $('.comment-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
-        fade: true,
+        infinite: true,
         asNavFor: '.slider-nav',
-        autoplay: true,
-        centerMode: true,
-        dots: false,
-
-    });
-    $('.slider-nav').slick({
-        slidesToShow: 8,
-        slidesToScroll: 8,
-        arrows: false,
-        asNavFor: '.slider-for',
-        dots: true,
-        variableWidth: true,
-        focusOnSelect: true
 
     });
 });
