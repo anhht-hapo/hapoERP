@@ -1,7 +1,8 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
 .button {
   text-align: center;
   padding-top: 30px;
+  padding-bottom: 63px;
 }
 .button-start {
   font-size: 14px;
@@ -38,7 +39,6 @@
 }
 .heading {
   background-image: url("../images/Landing-page-TB/Rectangle.jpg");
-  height: 425px;
   .login {
     padding-top: 20px;
   }
@@ -61,7 +61,7 @@
     img {
       width: 144px;
     }
-    padding: 40px 132px 0px 132px;
+    padding: 40px 132px 97px 132px;
   }
 }
 .title {
@@ -89,22 +89,17 @@
   }
 }
 .project {
-  height: 518px;
 }
 .today {
-  height: 526px;
 }
 
 .daily {
-  height: 520px;
 }
 
 .member-info {
-  height: 557px;
 }
 
 .customer-info {
-  height: 503px;
 }
 .customers {
 
@@ -126,10 +121,13 @@ footer {
 }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .button-start {
     font-size: 14px;
     padding: 10px 28px;
+  }
+  .button {
+    padding-bottom: 40px;
   }
   .customers {
     h2 {
@@ -149,7 +147,7 @@ footer {
   }
   .heading {
     background-image: url("../images/Landing-page-MB/Rectangle.jpg");
-    height: 266px;
+
     .login {
       padding-top: 25px;
       padding-right: 12px;
@@ -174,27 +172,25 @@ footer {
       img {
         width: 96px;
       }
-      padding: 18px 57px 0px 57px;
+      padding: 18px 57px 37px 57px;
     }
   }
   .project {
-    height: 665px;
   }
   .today {
-    height: 687px;
+
   }
   .daily {
-    height: 671px;
+
   }
   .member-info {
-    height: 804px;
+
   }
   .customer-info {
-    height: 690px;
   }
   footer {
-    height: 210px;
-    padding: 24px 0px;
+
+    padding: 24px 24px;
     .col-xs-3 {
       padding-right: 0px;
       padding-bottom: 24px;
@@ -242,21 +238,23 @@ footer {
       margin-bottom: 15px;
     }
   }
-
   .customer-comment {
+    &:before {
+
+    }
     box-sizing: border-box;
     padding-top: 70px;
     .open-quote-icon {
       font-size: 48px;
       top: -60px;
-      left: -50px;
+      left: 0px;
     }
     .close-quote-icon {
       opacity: 0.4;
       font-size: 48px;
       position: absolute;
       bottom: -40px;
-      right: -40px;
+      right: 0px;
     }
     p {
       font-size: 14px;
