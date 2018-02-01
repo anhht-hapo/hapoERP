@@ -219,7 +219,8 @@ a {
             font-size: 48px;
           }
           p {
-            font-size: 26px;
+            font-size: 36px;
+            margin-top: 15px;
           }
         }
       }
@@ -373,7 +374,7 @@ a {
     border: 1px solid #ECEFF1;
     background-color: #39474E;
     box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
-    padding: 50px 50px;
+    padding: 50px 0px;
 
     .single-widget {
       text-align: left;

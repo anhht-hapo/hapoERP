@@ -35,8 +35,8 @@ $(document).ready(function(){
         responsive: [{
             breakpoint: 998,
             settings: {
-                slidesToShow: 5,
-                slidesToScroll: 3,
+                slidesToShow: 6,
+                slidesToScroll: 6,
                 infinite: true,
                 dots: true
             }

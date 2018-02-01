@@ -127,7 +127,8 @@ a {
         .heading .hapo-container .icon-container .icon [class^="ti-"] {
           font-size: 48px; }
         .heading .hapo-container .icon-container .icon p {
-          font-size: 26px; }
+          font-size: 36px;
+          margin-top: 15px; }
     .heading .hapo-container > p {
       font-size: 18px;
       font-family: Roboto-Italic;
@@ -252,7 +253,7 @@ footer {
   background-color: #39474E;
   -webkit-box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
-  padding: 50px 50px; }
+  padding: 50px 0px; }
   footer .single-widget {
     text-align: left; }
     footer .single-widget ul {
@@ -341,7 +342,7 @@ footer {
   .features .feature-container .feature > p {
     font-size: 16px; }
   .customer-comment {
-    padding-top: 30px; }
+    padding-top: 50px; }
     .customer-comment .open-quote-icon {
       font-size: 64px;
       top: -60px;
@@ -358,7 +359,7 @@ footer {
   .heading {
     background-image: url("../images/Landing-page-TB/Rectangle.jpg"); }
     .heading .login {
-      padding-top: 20px; }
+      padding-top: 29px; }
     .heading .hapo-container {
       padding: 40px 132px 97px 132px; }
       .heading .hapo-container > p {
@@ -369,7 +370,8 @@ footer {
         .heading .hapo-container .icon-container .icon [class^="ti-"] {
           font-size: 25px; }
         .heading .hapo-container .icon-container .icon p {
-          font-size: 24px; }
+          font-size: 24px;
+          margin-top: 10px; }
       .heading .hapo-container img {
         width: 144px; }
   .title {
@@ -390,6 +392,9 @@ footer {
       margin-bottom: 20px; }
   .customers {
     background-image: url("../images/Landing-page-TB/Rectangle_3.jpg"); }
+    .customers h2 {
+      font-size: 36px;
+      padding-bottom: 30px; }
   footer .single-widget h2 {
     font-size: 12.9px; }
   footer .single-icon ul li {
@@ -428,7 +433,7 @@ footer {
       .heading .hapo-container img {
         width: 96px; }
   footer {
-    padding: 24px 24px; }
+    padding: 24px 0px; }
     footer .col-xs-3 {
       padding-right: 0px;
       padding-bottom: 24px; }

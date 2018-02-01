@@ -19,7 +19,7 @@
   }
 }
 .customer-comment {
-  padding-top: 30px;
+  padding-top: 50px;
   .open-quote-icon {
     font-size: 64px;
     top: -60px;
@@ -40,7 +40,7 @@
 .heading {
   background-image: url("../images/Landing-page-TB/Rectangle.jpg");
   .login {
-    padding-top: 20px;
+    padding-top: 29px;
   }
   .hapo-container {
     >p {
@@ -55,6 +55,7 @@
         }
         p {
           font-size: 24px;
+          margin-top: 10px;
         }
       }
     }
@@ -102,7 +103,10 @@
 .customer-info {
 }
 .customers {
-
+  h2 {
+    font-size: 36px;
+    padding-bottom: 30px;
+  }
   background-image: url("../images/Landing-page-TB/Rectangle_3.jpg");
 }
 footer {
@@ -190,7 +194,7 @@ footer {
   }
   footer {
 
-    padding: 24px 24px;
+    padding: 24px 0px;
     .col-xs-3 {
       padding-right: 0px;
       padding-bottom: 24px;
@@ -239,9 +243,6 @@ footer {
     }
   }
   .customer-comment {
-    &:before {
-
-    }
     box-sizing: border-box;
     padding-top: 70px;
     .open-quote-icon {
