@@ -366,10 +366,7 @@ a {
       cursor: pointer;
     }
   }
-
-
-  footer
-  {
+  footer  {
     clear: both;
     border: 1px solid #ECEFF1;
     background-color: #39474E;
@@ -422,17 +419,9 @@ a {
     box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
   }
 
-  .daily {
-  }
-
-  .member-info {
-  }
-
-  .customer-info {
+   .customer-info {
     clear: both;
     box-shadow: 0 15px 35px 0 rgba(0,0,0,0.5);
-  }
-  .project {
   }
 
   [class^="col-lg-6"] {
